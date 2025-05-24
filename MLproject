@@ -1,7 +1,7 @@
 name: Proyecto de demostracion
 
 # docker_env:
-#     image:  jdvelasq/mlflow:example
+#     image:  julianapardo98/mlflow:example
 #     build_context: .
 
 entry_points:
@@ -15,7 +15,4 @@ entry_points:
         parameters:
             n_neighbors: {type: int, default: 5}
         command: 'python3 -m homework --model knn --n_neighbors {n_neighbors}'
-
-
-
 
